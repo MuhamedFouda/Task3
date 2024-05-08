@@ -1,0 +1,307 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    text-align: center;
+    font-weight: 800;
+}
+
+body {
+    width: 100%;
+    padding: 0 3rem;
+    height: 140vh;
+}
+
+.content {
+    margin-top: .5rem;
+}
+
+.content div p {
+    font-size: 1.3rem;
+    text-align: center;
+    margin-bottom: 0rem;
+    line-height: 2rem;
+    color: rgb(60, 59, 59);
+}
+
+.content div p span {
+    color: rgb(0, 0, 164);
+}
+
+.containers {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    gap: 1.5rem;
+    margin-top: 2rem;
+}
+
+.container {
+    width: 33%;
+    border: 1px solid gray;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    gap: 1rem;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.container img {
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    height: 22rem;
+}
+
+.container h2,
+p {
+    padding: 0 15px;
+    color: black;
+}
+
+.container p {
+    color: rgb(63, 60, 60);
+}
+
+.container div {
+    cursor: pointer;
+    height: 8rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+    margin: 1rem 1rem;
+    padding: 10px 0;
+    background-color: rgba(128, 128, 128, 0.052);
+    border-radius: 10px;
+}
+
+.container div h2 {
+    padding-top: 10px;
+    border-top: 1px solid rgba(255, 255, 255, 0.263);
+}
+
+.container div .padd {
+    padding-left: 6rem;
+}
+
+
+
+
+@media only screen and (max-width: 678px) {
+
+    h1 {
+        text-align: center;
+        font-weight: 400;
+        font-size: 1.4rem;
+    }
+
+    body {
+        width: 100%;
+    }
+
+    .content {
+        margin-top: .5rem;
+        width: 100%;
+    }
+
+    .content div p {
+        font-size: 1rem;
+        text-align: left;
+    }
+
+
+
+    .containers {
+        flex-wrap: wrap;
+    }
+
+    .container {
+        width: 100%;
+
+    }
+
+
+    .container h2,
+    p {
+        padding: 0 5px;
+        font-size: 1rem;
+    }
+
+    .container div {
+        padding: 10px 10px;
+        background-color: rgba(128, 128, 128, 0.081);
+
+    }
+
+    .container div .padd {
+        padding-left: 0;
+    }
+
+}
+
+@media only screen and (min-width: 678px) and (max-width: 991px) {
+
+    .content {
+        margin-top: .5rem;
+    }
+
+    .content div p {
+        font-size: 1.3rem;
+        text-align: center;
+        margin-bottom: 0rem;
+        line-height: 2rem;
+        color: rgb(60, 59, 59);
+    }
+
+    .content div p span {
+        color: rgb(0, 0, 164);
+    }
+
+    .containers {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        gap: 1.5rem;
+        margin-top: 2rem;
+    }
+
+    .container {
+        width: 34%;
+        border: 1px solid gray;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: flex-start;
+        gap: 1rem;
+        border-radius: 10px;
+        cursor: pointer;
+    }
+
+    .container img {
+        width: 100%;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        height: 22rem;
+    }
+
+    .container h2,
+    p {
+        padding: 0 15px;
+        color: black;
+    }
+
+    .container p {
+        color: rgb(63, 60, 60);
+    }
+
+    .container div {
+        cursor: pointer;
+        height: 8rem;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: .1rem;
+        margin: 2rem 1rem;
+        padding: 10px 0;
+        background-color: rgba(128, 128, 128, 0.052);
+        border-radius: 10px;
+    }
+
+    .container div h2 {
+        font-size: 1rem;
+        padding-top: 10px;
+        border-top: 1px solid rgba(255, 255, 255, 0.263);
+    }
+
+    .container div .padd {
+        padding-left: 0rem;
+    }
+
+}
+@media only screen and (min-width: 991px) and (max-width: 1165px) {
+
+    .content {
+        margin-top: .5rem;
+    }
+
+    .content div p {
+        font-size: 1.3rem;
+        text-align: center;
+        margin-bottom: 0rem;
+        line-height: 2rem;
+        color: rgb(60, 59, 59);
+    }
+
+    .content div p span {
+        color: rgb(0, 0, 164);
+    }
+
+    .containers {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        gap: 1.5rem;
+        margin-top: 2rem;
+    }
+
+    .container {
+        width: 34%;
+        border: 1px solid gray;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: flex-start;
+        gap: 1rem;
+        border-radius: 10px;
+        cursor: pointer;
+    }
+
+    .container img {
+        width: 100%;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        height: 22rem;
+    }
+
+    .container h2,
+    p {
+        padding: 0 15px;
+        color: black;
+    }
+
+    .container p {
+        color: rgb(63, 60, 60);
+    }
+
+    .container div {
+        cursor: pointer;
+        height: 8rem;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: .1rem;
+        margin: 2rem 1rem;
+        padding: 10px 0;
+        background-color: rgba(128, 128, 128, 0.052);
+        border-radius: 10px;
+    }
+
+    .container div h2 {
+        padding-top: 10px;
+        border-top: 1px solid rgba(255, 255, 255, 0.263);
+    }
+
+    .container div .padd {
+        padding-left: 0rem;
+    }
+
+}
